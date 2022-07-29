@@ -1,0 +1,20 @@
+.slider {
+    margin-top: 150px;
+}
+
+.silder_img {
+    filter: blur(2px);
+}
+
+#caption_in_center {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
